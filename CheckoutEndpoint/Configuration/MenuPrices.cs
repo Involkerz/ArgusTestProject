@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CheckoutEndpoint.Configuration;
+﻿namespace CheckoutEndpoint.Configuration;
 
 /// <summary>
 ///     Contains prices and discounts/extra charges for food and drinks

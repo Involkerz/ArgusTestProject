@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using CheckoutEndpoint.Configuration;
+﻿using CheckoutEndpoint.Configuration;
 using CheckoutEndpoint.Endpoint.Entities;
 
 namespace CheckoutEndpoint.Endpoint;

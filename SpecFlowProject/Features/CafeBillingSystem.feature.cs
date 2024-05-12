@@ -82,7 +82,7 @@ namespace SpecFlowProject.Features
                     "Checkout"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Checkout calculation - regular order - no discount applied", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 4
+#line 5
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -110,13 +110,13 @@ this.ScenarioInitialize(scenarioInfo);
                             "4",
                             "4",
                             "4"});
-#line 5
+#line 6
  testRunner.Given("Visitors place an order at \'20:27\'", ((string)(null)), table1, "Given ");
 #line hidden
-#line 8
+#line 9
  testRunner.When("Visitors request the final bill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 9
+#line 10
  testRunner.Then("The bill is calculated and is \'58.4\'£", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -132,7 +132,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "Checkout"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Checkout calculation - additional order - partial discount applied", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 12
+#line 15
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -160,13 +160,13 @@ this.ScenarioInitialize(scenarioInfo);
                             "1",
                             "2",
                             "2"});
-#line 13
+#line 16
  testRunner.Given("Visitors place an order at \'17:59\'", ((string)(null)), table2, "Given ");
 #line hidden
-#line 16
+#line 19
  testRunner.When("Visitors request the final bill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 17
+#line 20
  testRunner.Then("The bill is calculated and is \'23.3\'£", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
                 TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
@@ -177,14 +177,14 @@ this.ScenarioInitialize(scenarioInfo);
                             "0",
                             "2",
                             "2"});
-#line 18
+#line 21
  testRunner.When("Visitors place an order at \'20:00\'", ((string)(null)), table3, "When ");
 #line hidden
-#line 21
+#line 24
  testRunner.And("Visitors request the final bill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 22
- testRunner.Then("The bill is calculated and is \'43.7\'£", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 25
+ testRunner.Then("The bill is calculated and is \'43.8\'£", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -199,7 +199,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "Checkout"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Checkout calculation - partial order cancelation - partial discount applied", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 25
+#line 28
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -227,13 +227,13 @@ this.ScenarioInitialize(scenarioInfo);
                             "4",
                             "4",
                             "4"});
-#line 26
+#line 29
  testRunner.Given("Visitors place an order at \'18:59\'", ((string)(null)), table4, "Given ");
 #line hidden
-#line 29
+#line 32
  testRunner.When("Visitors request the final bill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 30
+#line 33
  testRunner.Then("The bill is calculated and is \'55.4\'£", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
                 TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
@@ -244,13 +244,13 @@ this.ScenarioInitialize(scenarioInfo);
                             "1",
                             "1",
                             "1"});
-#line 31
+#line 34
  testRunner.When("Visitor cancels the order from \'18:59\'", ((string)(null)), table5, "When ");
 #line hidden
-#line 34
+#line 37
  testRunner.And("Visitors request the final bill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 35
+#line 38
  testRunner.Then("The bill is calculated and is \'41.55\'£", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -266,7 +266,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "Checkout"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Checkout calculation - full order cancelation - no discount applied", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 39
+#line 43
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -294,13 +294,13 @@ this.ScenarioInitialize(scenarioInfo);
                             "4",
                             "4",
                             "4"});
-#line 40
+#line 44
  testRunner.Given("Visitors place an order at \'23:59\'", ((string)(null)), table6, "Given ");
 #line hidden
-#line 43
+#line 47
  testRunner.When("Visitors request the final bill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 44
+#line 48
  testRunner.Then("The bill is calculated and is \'58.4\'£", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
                 TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
@@ -311,13 +311,13 @@ this.ScenarioInitialize(scenarioInfo);
                             "4",
                             "4",
                             "4"});
-#line 45
+#line 49
  testRunner.When("Visitor cancels the order from \'23:59\'", ((string)(null)), table7, "When ");
 #line hidden
-#line 48
+#line 52
  testRunner.And("Visitors request the final bill", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 49
+#line 53
  testRunner.Then("The bill is calculated and is \'0\'£", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
